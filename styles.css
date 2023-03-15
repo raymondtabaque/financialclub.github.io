@@ -410,6 +410,12 @@ header {
         margin-top: .5rem;
     }
 
+    .imgactivity img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+    }
+
     /*video*/
 
     .vidtitle {
@@ -439,5 +445,13 @@ header {
     .footsection {
         width: 100%;
         padding: .2rem .5rem;
+    }
+
+    .footsection h4 {
+      font-size: 1rem;
+
+    }
+    .footsection li {
+      font-size: .8rem;
     }
 }
